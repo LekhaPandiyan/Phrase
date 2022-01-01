@@ -1,19 +1,19 @@
 {
-  "name": "cypress",
+  "name": "phrase_bdd",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-xpath": "^1.6.2"
-  },
-  "dependencies": {
-    "xlsx": "^0.17.4"
-  },
-  "description": ""
+  }
 }
